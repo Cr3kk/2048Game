@@ -1,0 +1,76 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:_2048Game"
+             mc:Ignorable="d"
+             x:Class="_2048Game.Views.MainWindow">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock x:Name="Title" Text="2048" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="100" Foreground="White" Margin="30"/>
+        <Grid ShowGridLines="True"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+                <RowDefinition Height="100" />
+                <RowDefinition Height="100" />
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
+            
+            <Border x:Name="border_0_0" Grid.Row="0" Grid.Column="0" BorderBrush="Black" BorderThickness="1" Background="Gray">
+                <TextBlock x:Name="label_0_0" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
+            </Border>
+            <Border x:Name="border_0_1" Grid.Row="0" Grid.Column="1" BorderBrush="Black" BorderThickness="1" Background="Gray">
+                <TextBlock x:Name="label_0_1" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
+            </Border>
+            <Border x:Name="border_0_2" Grid.Row="0" Grid.Column="2" BorderBrush="Black" BorderThickness="1" Background="Gray">
+                <TextBlock x:Name="label_0_2" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
+            </Border>
+            <Border x:Name="border_0_3" Grid.Row="0" Grid.Column="3" BorderBrush="Black" BorderThickness="1" Background="Gray">
+                <TextBlock x:Name="label_0_3" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
+            </Border>
+            <Border x:Name="border_1_0" Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="1" Background="Gray">
+                <TextBlock x:Name="label_1_0" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
+            </Border>
+            <Border x:Name="border_1_1" Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="1" Background="Gray">
+                <TextBlock x:Name="label_1_1" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
+            </Border>
+            <Border x:Name="border_1_2" Grid.Row="1" Grid.Column="2" BorderBrush="Black" BorderThickness="1" Background="Gray">
+                <TextBlock x:Name="label_1_2" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
+            </Border>
+            <Border x:Name="border_1_3" Grid.Row="1" Grid.Column="3" BorderBrush="Black" BorderThickness="1" Background="Gray">
+                <TextBlock x:Name="label_1_3" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
+            </Border>
+            <Border x:Name="border_2_0" Grid.Row="2" Grid.Column="0" BorderBrush="Black" BorderThickness="1" Background="Gray">
+                <TextBlock x:Name="label_2_0" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
+            </Border>
+            <Border x:Name="border_2_1" Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="1" Background="Gray">
+                <TextBlock x:Name="label_2_1" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
+            </Border>
+            <Border x:Name="border_2_2" Grid.Row="2" Grid.Column="2" BorderBrush="Black" BorderThickness="1" Background="Gray">
+                <TextBlock x:Name="label_2_2" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
+            </Border>
+            <Border x:Name="border_2_3" Grid.Row="2" Grid.Column="3" BorderBrush="Black" BorderThickness="1" Background="Gray">
+                <TextBlock x:Name="label_2_3" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
+            </Border>
+            <Border x:Name="border_3_0" Grid.Row="3" Grid.Column="0" BorderBrush="Black" BorderThickness="1" Background="Gray">
+                <TextBlock x:Name="label_3_0" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
+            </Border>
+            <Border x:Name="border_3_1" Grid.Row="3" Grid.Column="1" BorderBrush="Black" BorderThickness="1" Background="Gray">
+                <TextBlock x:Name="label_3_1" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
+            </Border>
+            <Border x:Name="border_3_2" Grid.Row="3" Grid.Column="2" BorderBrush="Black" BorderThickness="1" Background="Gray">
+                <TextBlock x:Name="label_3_2" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
+            </Border>
+            <Border x:Name="border_3_3" Grid.Row="3" Grid.Column="3" BorderBrush="Black" BorderThickness="1" Background="Gray">
+                <TextBlock x:Name="label_3_3" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
+            </Border>
+        </Grid>
+    </StackPanel>
+</UserControl>
